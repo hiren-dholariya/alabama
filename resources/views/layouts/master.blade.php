@@ -113,7 +113,7 @@
 <body>
 
     <!-- Header / Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-custom py-3">
+    <nav class="navbar navbar-expand-lg navbar-custom py-3 cd-mainmenu">
         <div class="container">
             <a class="navbar-brand-custom" href="{{ route('frontend.home') }}">
                 <img src="{{url('assets/images/logo.webp') }}" title="Alabama" alt="Alabama" class="img-fluid cd-logo" />

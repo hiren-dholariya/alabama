@@ -116,13 +116,14 @@
 .navbar-toggler:focus {box-shadow: none !important;}
 
 body {
-    font-family: "Poppins", sans-serif, "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     color:var(--ink);background:var(--paper);font-size:15px;line-height:1.75;letter-spacing:.036em;-webkit-font-smoothing:antialiased;
     /* text-wrap: balance; */
     font-style: normal;
     font-optical-sizing: auto;
     position: relative;
 }
+html {margin: 0 !important;}
 footer, .section {overflow: hidden;}
 /* custom css */
 p {font-size: 1em;letter-spacing: 0.5px;}
@@ -132,6 +133,10 @@ button {
   transition: all 0.3s ease;
 }
 a {text-decoration: none;transition: all 0.3s ease;}
+
+button{font:inherit;cursor:pointer}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 40px}
+::selection{background:var(--brass);color:#fff}
 /* --- btn -- */
 
 
@@ -157,7 +162,7 @@ a {text-decoration: none;transition: all 0.3s ease;}
    HEADER STYLES
    ============================================ */
 /* mockup banner */
-.mock-note{background:var(--brass);color:#fff;text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px}
+.mock-note{background:var(--brass);color:#fff;text-align:center;font-size:11px;letter-spacing:.14em;text-transform:uppercase;padding:7px 12px;font-family: 'pop-normal';}
 /* ---------- top bar ---------- */
 .topbar{background:var(--ink);color:rgba(255,255,255,.75);font-size:12px;letter-spacing:.08em}
 .topbar .wrap{display:flex;justify-content:space-between;align-items:center;height:38px}
