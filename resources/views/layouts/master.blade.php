@@ -23,7 +23,6 @@
             align-items: center;
             gap: 8px;
         }
-
         .navbar-custom {
             background: rgba(255, 255, 255, 0.8);
             backdrop-filter: blur(12px);
@@ -31,24 +30,7 @@
             position: sticky;
             top: 0;
             z-index: 1030;
-        }
-        .footer-custom {
-            margin-top: auto;
-            background-color: #0f172a;
-            color: #94a3b8;
-            border-top: 1px solid #1e293b;
-        }
-
-        .footer-custom a {
-            color: #cbd5e1;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-
-        .footer-custom a:hover {
-            color: #ffffff;
-        }
-
+        }  
         .filter-sidebar {
             background: #ffffff;
             border: 1px solid rgba(226, 232, 240, 0.8);
@@ -172,41 +154,67 @@
     </main>
 
     <!-- Footer -->
-    <footer class="footer-custom py-5 mt-5">
+    <footer class="cdFooter py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6">
-                    <h5 class="text-white mb-3 fw-bold">Alabama Heaters</h5>
-                    <p class="small">Explore our catalog of high-efficiency residential and industrial geysers, water heaters, and heating solutions.</p>
+                    <img src="{{url('assets/images/white-logo.webp') }}" title="Alabama" alt="Alabama" class="img-fluid cd-footlogo" />
+                    <p class="small my-4">Alabama is a trusted UAE supplier of high-quality plumbing and building materials, offering durable and cost-effective solutions for residential, commercial, and industrial projects. We provide reliable construction supplies designed to meet the highest standards of quality and performance.</p>
+                    <div class="f-social">
+                        <a href="https://www.facebook.com/alabamauae/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.linkedin.com/company/alabama-building-materials-trading/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/alabamauae/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/971559138047" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <h6 class="text-white mb-3 fw-bold">Quick Links</h6>
                     <ul class="list-unstyled small d-flex flex-column gap-2">
                         <li><a href="{{ route('frontend.home') }}">Home</a></li>
-                        <li><a href="{{ route('login') }}">Admin Login</a></li>
+                        <li><a href="{{ route('login') }}">About us</a></li>
+                        <li><a href="{{ route('login') }}">Brands</a></li>
+                        <li><a href="{{ route('login') }}">Blog</a></li>
+                        <li><a href="{{ route('login') }}">Contact us</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h6 class="text-white mb-3 fw-bold">Product Brands</h6>
-                    <p class="small">Top-tier brands offering unparalleled warranty, heating efficiency, and mounting capabilities.</p>
+                    <h6 class="text-white mb-3 fw-bold">Products</h6>
+                    <ul class="list-unstyled small d-flex flex-column gap-2">
+                        <li><a href="{{ route('frontend.home') }}">Water heaters</a></li>
+                        <li><a href="{{ route('frontend.home') }}">Solar heaters</a></li>
+                        <li><a href="{{ route('frontend.home') }}">Water pumps</a></li>
+                        <li><a href="{{ route('frontend.home') }}">Valves &amp; fittings</a></li>
+                        <li><a href="{{ route('frontend.home') }}">Sanitaryware</a></li>
+                        <li><a href="{{ route('frontend.home') }}">Bathroomware</a></li>
+                        <li><a href="{{ route('frontend.home') }}">Kitchen</a></li>
+                    </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h6 class="text-white mb-3 fw-bold">Contact Support</h6>
-                    <p class="small mb-1"><i class="ti ti-mail me-2"></i>support@alabamaportal.com</p>
-                    <p class="small"><i class="ti ti-phone me-2"></i>+1 (555) 019-2834</p>
+                    <h6 class="text-white mb-3 fw-bold">Contact</h6>
+                    <p class="small mb-1"><i class="fa-solid fa-location-dot me-2"></i> Dubai Investments Park 2, Dubai, UAE</p>
+                    <p class="small mb-1"><i class="fa-solid fa-envelope me-2"></i><a href="mailto:sales@alabamauae.com">sales@alabamauae.com</a></p>
+                    <p class="small"><i class="fa-solid fa-phone me-2"></i><a href="tel:+97143526973">+971 4 352 6973</a></p>
                 </div>
             </div>
             <hr class="border-secondary my-4">
             <div class="row align-items-center">
                 <div class="col-md-6 text-center text-md-start small">
-                    &copy; {{ date('Y') }} Alabama Portal. All rights reserved.
+                    &copy; {{ date('Y') }} Alabama Building Materials Trading L.L.C. All rights reserved.
                 </div>
                 <div class="col-md-6 text-center text-md-end small">
-                    Designed for visual excellence and responsive performance.
+                    <a href="#" class="cd-link">Privacy</a>
+                     · 
+                    <a href="#" class="cd-link">Terms</a>
                 </div>
             </div>
         </div>
     </footer>
+
+    {{-- WA --}}
+    <a class="wa-float" href="https://wa.me/971559138047?text=Hello%20Alabama%2C%20I%20am%20interested%20in%20your%20products." target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32"><path d="M16 3C9.4 3 4 8.3 4 14.9c0 2.6.8 5 2.3 7L4 29l7.3-2.3c1.9 1 4 1.6 6.2 1.6h.5c6.6 0 12-5.3 12-11.9C30 8.3 24.6 3 16 3h0zm7 16.9c-.3.8-1.7 1.6-2.4 1.7-.6.1-1.4.1-2.2-.1-.5-.2-1.2-.4-2-.8-3.6-1.5-5.9-5.1-6.1-5.4-.2-.2-1.4-1.9-1.4-3.6s.9-2.5 1.2-2.9c.3-.3.7-.4.9-.4h.7c.2 0 .5-.1.8.6.3.8 1.1 2.6 1.2 2.8.1.2.2.4 0 .7-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.7 2.2 2.7 1.5 1.4 2.8 1.8 3.2 2 .4.2.6.2.9-.1.2-.3 1-1.2 1.3-1.6.3-.4.5-.3.9-.2.4.1 2.4 1.1 2.8 1.3.4.2.7.3.8.5.1.1.1.9-.2 1.7z"/></svg>
+    </a>
+
     {{-- JS --}}
     <script src="{{ url('assets/js/script.js?v='.mt_rand()) }}"></script>
 </body>

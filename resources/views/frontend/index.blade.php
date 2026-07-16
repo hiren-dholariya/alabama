@@ -62,7 +62,7 @@
                         <div class="eyebrow">What we supply</div>
                         <h2 class="h-section">From boiler room to bathroom. <span class="accent-i">One supplier.</span></h2>
                     </div>
-                    <a class="link-arrow" href="#cat-hotwater">View all products →</a>
+                    <a class="link-arrow" href="#cat-hotwater">View all products <i class="fa-solid fa-angles-right"></i></a>
                 </div>
             </div>
             <div class="col-xl-12">
@@ -154,6 +154,264 @@
     </div>
 </section>
 
+<!-- brand -->
+<section class="cdbrand">
+    <div class="container">            
+        <div class="spot">
+            <div class="spot-media"><img src="https://alabamauae.com/wp-content/uploads/2026/01/E-GLASSTECH-1.webp" alt="Lamborghini E-Glasstech water heater" class="img-fluid cd-brand"/></div>
+            <div class="spot-copy on-dark">
+                <div class="eyebrow">Brand spotlight</div>
+                <h2 class="h-section">Lamborghini CaloreClima. Italian engineering, <span class="accent-i">7-year tanks.</span></h2>
+                <p>76 electric water heater SKUs across the TAURUS, E-Glasstech and Glass Thermal families — glasslined tanks, serviceable flanged elements, warranties up to 7 years.</p>
+                <div class="spot-ctas">
+                    <a class="btn brass" href="#brand-lamborghini">View brand</a>
+                    <a class="btn ghost-invert" href="#brands">All brands</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- brand-strip -->
+<section class="brand-strip">
+    <div class="marquee-wrap">
+        <div class="marquee">
+            <!-- First Set -->
+            <img src="https://alabamauae.com/wp-content/uploads/2026/01/20.png" alt="Lamborghini CaloreClima" class="img-fluid" />
+            <span class="wm">Zenith Water Heater</span>
+            <span class="wm">Ariston</span>
+            <img src="https://alabamauae.com/wp-content/uploads/2026/01/13.png" alt="VERA" class="img-fluid" />
+            <span class="wm">Pegler</span>
+
+            <!-- Duplicate Set -->
+            <img src="https://alabamauae.com/wp-content/uploads/2026/01/20.png" alt="Lamborghini CaloreClima" class="img-fluid" />
+            <span class="wm">Zenith Water Heater</span>
+            <span class="wm">Ariston</span>
+            <img src="https://alabamauae.com/wp-content/uploads/2026/01/13.png" alt="VERA" class="img-fluid" />
+            <span class="wm">Pegler</span>
+        </div>
+    </div>
+</section>
+
+<!-- collections -->
+<section class="cdcollections">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="sec-head split rv">
+                    <div>
+                        <div class="eyebrow">Featured collections</div>
+                        <h2 class="h-section">Specified by engineers. <span class="accent-i">Chosen by homes.</span></h2>
+                    </div>
+                    <a class="link-arrow" href="https://wa.me/971559138047?text=Hello%20Alabama%2C%20please%20share%20your%20latest%20price%20list." target="_blank" rel="noopener">Request price list <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-12">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <a href="#product-eglasstech" class="product-card text-decoration-none">
+                            <div class="product-img">
+                                <img src="https://alabamauae.com/wp-content/uploads/2026/01/E-GLASSTECH-1.webp"
+                                    alt="E-Glasstech Electric Water Heater"
+                                    class="img-fluid">
+                            </div>
+                            <div class="product-body">
+                                <small>LAMBORGHINI CALORECLIMA</small>
+                                <h3>E-Glasstech Electric Water Heater</h3>
+                                <span class="product-link">
+                                    View Product <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <a href="#" class="product-card text-decoration-none">
+                            <div class="product-img">
+                                <span class="ghost">T</span>
+                            </div>
+                            <div class="product-body">
+                                <small>LAMBORGHINI CALORECLIMA</small>
+                                <h3>TAURUS BF Electric Water Heater</h3>
+                                <span class="product-link">
+                                    View Product <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <a href="#" class="product-card text-decoration-none">
+                            <div class="product-img">
+                                <span class="ghost">Z</span>
+                            </div>
+                            <div class="product-body">
+                                <small>Zenith Water Heater</small>
+                                <h3>Zenith ZT Thermosyphonic Solar Water Heater</h3>
+                                <span class="product-link">
+                                    View Product <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <a href="#product-eglasstech" class="product-card text-decoration-none">
+                            <div class="product-img">
+                                <img src="https://alabamauae.com/wp-content/uploads/2026/01/E-GLASSTECH-1.webp"
+                                    alt="E-Glasstech Electric Water Heater"
+                                    class="img-fluid">
+                            </div>
+                            <div class="product-body">
+                                <small>LAMBORGHINI CALORECLIMA</small>
+                                <h3>E-Glasstech Electric Water Heater</h3>
+                                <span class="product-link">
+                                    View Product <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <a href="#" class="product-card text-decoration-none">
+                            <div class="product-img">
+                                <span class="ghost">T</span>
+                            </div>
+                            <div class="product-body">
+                                <small>LAMBORGHINI CALORECLIMA</small>
+                                <h3>TAURUS BF Electric Water Heater</h3>
+                                <span class="product-link">
+                                    View Product <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <a href="#" class="product-card text-decoration-none">
+                            <div class="product-img">
+                                <span class="ghost">Z</span>
+                            </div>
+                            <div class="product-body">
+                                <small>Zenith Water Heater</small>
+                                <h3>Zenith ZT Thermosyphonic Solar Water Heater</h3>
+                                <span class="product-link">
+                                    View Product <i class="fa-solid fa-arrow-right-long"></i>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Certified -->
+<section class="cdCertified">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="sec-head centered">
+                    <div class="eyebrow centered">Assurance of quality</div>
+                    <h2 class="h-section">Certified. Tested. <span class="accent-i">Trusted on site.</span></h2>
+                </div>
+                <div class="assure">
+                    <div class="cell">                        
+                        <img src="{{url('assets/images/certification/1.webp') }}" alt="Certification" class="img-fluid" />
+                    </div>
+                    <div class="cell">                        
+                        <img src="{{url('assets/images/certification/2.webp') }}" alt="Certification" class="img-fluid" />
+                    </div>
+                    <div class="cell">                        
+                        <img src="{{url('assets/images/certification/3.webp') }}" alt="Certification" class="img-fluid" />
+                    </div>
+                    <div class="cell">                        
+                        <img src="{{url('assets/images/certification/4.webp') }}" alt="Certification" class="img-fluid" />
+                    </div>
+                    <div class="cell">                        
+                        <img src="{{url('assets/images/certification/5.webp') }}" alt="Certification" class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- cta -->
+<section class="cdCta section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="cta-band on-dark">
+                    <div>
+                        <div class="eyebrow">Talk to sales</div>
+                        <h2 class="h-section">Looking for quality plumbing solutions? <span class="accent-i">Let's talk.</span></h2>
+                    </div>
+                    <div class="actions">
+                        <a
+                            class="btn brass"
+                            href="https://wa.me/971559138047?text=Hello%20Alabama%2C%20I%20would%20like%20a%20free%20quote."
+                            target="_blank"
+                            rel="noopener"
+                            >Get Free Quote Now</a
+                        >
+                        <a class="btn ghost-invert" href="tel:+97143526973">+971 4 352 6973</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- blog -->
+<section class="cdBlog section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="sec-head split">
+                    <div>
+                        <div class="eyebrow">Insights</div>
+                        <h2 class="h-section">From our <span class="accent-i">blog</span></h2>
+                    </div>
+                    <a class="link-arrow" href="#blog">All articles <i class="fa-solid fa-angles-right"></i></a>
+                </div>
+                <div class="blog-grid">
+                    <a class="post rv" href="#blog">
+                        <div class="pi">
+                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/hot-water-system.webp" alt="" />
+                        </div>
+                        <div class="pc">
+                            <div class="meta"><span class="tagpill">Hot water</span><span class="date">June 2026</span></div>
+                            <h3>Electric vs. solar water heaters: what UAE villas actually need</h3>
+                            <p>A practical comparison of running costs, capacity and lifespan for the Gulf climate.</p>
+                            <span class="link-arrow">Read more →</span>
+                        </div>
+                    </a>
+                    <a class="post rv" href="#blog">
+                        <div class="pi">
+                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/plumbing-materials.webp" alt="" />
+                        </div>
+                        <div class="pc">
+                            <div class="meta"><span class="tagpill">Plumbing</span><span class="date">May 2026</span></div>
+                            <h3>How to choose the right pump for multi-storey buildings</h3>
+                            <p>Multistage, self-priming or booster — matching pump type to head and flow requirements.</p>
+                            <span class="link-arrow">Read more →</span>
+                        </div>
+                    </a>
+                    <a class="post rv" href="#blog">
+                        <div class="pi">
+                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/sanitary-ware.webp" alt="" />
+                        </div>
+                        <div class="pc">
+                            <div class="meta">
+                                <span class="tagpill">Sanitaryware</span><span class="date">April 2026</span>
+                            </div>
+                            <h3>Brass vs. zinc fittings: why the material behind the finish matters</h3>
+                            <p>What separates a mixer that lasts fifteen years from one that fails in two.</p>
+                            <span class="link-arrow">Read more →</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 @endsection

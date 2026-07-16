@@ -125,6 +125,7 @@ body {
 }
 html {margin: 0 !important;}
 footer, .section {overflow: hidden;}
+.section {padding: 104px 0;}
 /* custom css */
 p {font-size: 1em;letter-spacing: 0.5px;}
 ul {list-style: none;padding-left: 0;}
@@ -164,9 +165,6 @@ button{font:inherit;cursor:pointer}
 .back-to-top {position: fixed;bottom: 50px;scale: 0;transition: opacity 0.3s ease, scale 0.3s ease;background-color: var(--header-bg);color: var(--white);padding: 1.3rem;border-radius: 100%;z-index: 3;width: 30px;display: flex;height: 30px;align-items: center;justify-content: center;left: calc(100% - 55px);border: 1px solid var(--bg1);}
 @container scroll-state(scrollable: top) {.back-to-top {scale: 1;}}
 
-/* whatsapp */
-.whatsapp {position: fixed;bottom: 80px;background-color: var(--header-bg);color: var(--white);padding: 1.3rem;border-radius: 100%;z-index: 3;width: 30px;display: flex;height: 30px;align-items: center;justify-content: center;left: calc(100% - 55px);border: 1px solid var(--bg1);}
-
 /* call */
 .flotcall {position: fixed;bottom: 130px;background-color: var(--header-bg);color: var(--white);padding: 1.3rem;border-radius: 100%;z-index: 3;width: 30px;display: flex;height: 30px;align-items: center;justify-content: center;left: calc(100% - 55px);border: 1px solid var(--bg1);}
 /* custom css # */
@@ -183,6 +181,11 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 .on-dark .accent-i{color:#f29b9b}
 .lede{color:var(--grey);max-width:560px}
 .on-dark .lede{color:rgba(255,255,255,.62)}
+
+/* whatsapp float */
+.wa-float{position:fixed;right:26px;bottom:26px;z-index:70;width:56px;height:56px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(0,0,0,.22);transition:transform .25s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:28px;height:28px;fill:#fff}
 
 /* ============================================
    HEADER STYLES
@@ -300,6 +303,163 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 .cdwhoweare {background-color: var(--stone);padding-block: 104px;}
 .cdwhoweare .media {min-height: 485px;overflow: hidden;position: relative;border-radius: var(--radius);}
 .cdwhoweare .media .cdqulity { position: absolute;inset: 0;width: 100%;height: 100%;object-fit: cover;}
+
+/* ---------- brand spotlight ---------- */
+.cdbrand {background-color: var(--stone);padding-bottom: 104px;}
+.cdbrand .spot {display:grid;grid-template-columns:1fr 1fr;border-radius:var(--radius);overflow:hidden;background:var(--ink);color:#fff}
+.cdbrand .spot .spot-media{min-height:480px;position:relative}
+.cdbrand .spot .spot-media img{position:absolute;inset:0;width:100%;height:100%;}
+.cdbrand .spot .spot-copy{padding:70px 64px;display:flex;flex-direction:column;justify-content:center}
+.cdbrand .spot .spot-copy h2{margin:20px 0 18px}
+.cdbrand .spot .spot-copy p{color:rgba(255,255,255,.62);margin-bottom:34px;max-width:440px}
+.cdbrand .spot .spot-ctas{display:flex;gap:14px;flex-wrap:wrap}
+
+/* ---------- brand strip ---------- */
+.brand-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding: 4px 0;overflow:hidden}
+.marquee-wrap{
+    overflow:hidden;
+    width:100%;
+}
+.marquee{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    width:max-content;
+    animation: marquee 20s linear infinite;
+}
+@keyframes marquee{
+    from{
+        transform:translateX(0);
+    }
+    to{
+        transform:translateX(-50%);
+    }
+}
+.marquee img {
+    height: 120px;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+.marquee img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+.marquee .wm {
+    font-size: 20px;
+    font-family: 'pop-sb';
+    color: #888;
+    transition: color 0.3s ease;
+}
+.marquee .wm:hover {
+    color: var(--ink);
+}
+.marquee:hover {
+    animation-play-state: paused;
+}
+
+/* --- product ---*/
+.cdcollections {padding: 104px 0;}
+.cdcollections .product-card{
+    display:block;
+    background:#fff;
+    border:1px solid #e5e5e5;
+    border-radius:8px;
+    overflow:hidden;
+    transition:.35s;
+    height:100%;
+}
+.cdcollections .product-card:hover{
+    transform:translateY(-6px);
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+.cdcollections .product-img{
+    height:260px;
+    background:#f7f7f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:30px;
+}
+.cdcollections .product-img img{
+    max-height:180px;
+    transition:.4s;
+    mix-blend-mode: multiply;
+}
+.cdcollections .product-card:hover img{
+    transform:scale(1.05);
+}
+.cdcollections .product-body{
+    padding:25px;
+}
+.cdcollections .product-body small{
+    display:block;
+    color: var(--brass);
+    font-size: 10.5px;
+    letter-spacing:3px;
+    font-family: 'pop-sb';
+    text-transform:uppercase;
+    margin-bottom:12px;
+}
+.cdcollections .product-body h3{
+    color: var(--ink);
+    font-size:16.5px;
+    font-family: 'pop-bold';
+    line-height:1.45;
+    margin: 8px 0 14px;
+}
+.cdcollections .product-link {
+    color: var(--brass);
+    font-size: 12.5px;
+    text-transform:uppercase;
+    letter-spacing: var(--track);
+    font-family: 'pop-sb';
+}
+.cdcollections .product-link:hover {color: var(--brass-deep);}
+.cdcollections .ghost {
+    font-size: 96px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    color: rgba(229,43,43,.14);
+    line-height: 1;
+    user-select: none;
+}
+
+/* --- Certified --- */
+.cdCertified {background-color: var(--stone);padding: 104px 0;}
+.assure{display:grid;grid-template-columns:repeat(5,1fr);gap:20px}
+.assure .cell {border: 1px solid var(--line);border-radius: var(--radius);height: 200px;display: flex;align-items: center;justify-content: center;padding: 20px;overflow: hidden;background: var(--paper);}
+.assure .cell img{max-height:70px;width:auto;filter:grayscale(1);opacity:.75;transition:all .3s}
+.assure .cell:hover img{filter:none;opacity:1}
+
+/* ---------- CTA band ---------- */
+.cdCta .cta-band {background:var(--ink);color:#fff;border-radius:var(--radius);padding:72px 64px;display:flex;justify-content:space-between;align-items:center;gap:40px;position:relative;overflow:hidden}
+.cdCta .cta-band::before{content:"ALABAMA";position:absolute;right:-30px;bottom:-42px;font-size:150px;font-weight:700;letter-spacing:.14em;color:rgba(255,255,255,.04);line-height:1;pointer-events:none}
+.cdCta .cta-band h2{max-width:520px;margin-top:18px}
+.cdCta .cta-band .actions{display:flex;gap:16px;flex-wrap:wrap;flex:none}
+
+/* ---------- blog ---------- */
+.cdBlog .blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
+.cdBlog .post{background: var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:box-shadow .3s}
+.cdBlog .post:hover{box-shadow:0 24px 50px rgba(0,0,0,.08);color: var(--ink);}
+.cdBlog .post .pi{height:200px;overflow:hidden}
+.cdBlog .post .pi img{width:100%;height:100%;object-fit:cover;transition:transform .5s}
+.cdBlog .post:hover .pi img{transform:scale(1.05)}
+.cdBlog .post .pc{padding:26px}
+.cdBlog .post .meta{display:flex;gap:12px;align-items:center;margin-bottom:12px}
+.cdBlog .post .tagpill{font-size:10.5px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;background:rgba(229,43,43,.1);color:var(--brass-deep);padding:4px 12px;border-radius:100px}
+.cdBlog .post .date{font-size:12px;color:var(--grey);font-family:'Open Sans',sans-serif;letter-spacing:0}
+.cdBlog .post h3{font-size:17px;line-height:1.5;margin-bottom:10px}
+.cdBlog .post p{font-size:13.5px;color:var(--grey);font-family:'Open Sans',sans-serif;letter-spacing:0;margin-bottom:16px}
+
+/* -------- footer ------- */
+.cdFooter {margin-top: auto;background-color: var(--ink);color: rgba(255,255,255,.55);border-top: 1px solid #1e293b;}
+.cdFooter a {color: rgba(255,255,255,.55);text-decoration: none;transition: color 0.2s;}
+.cdFooter a:hover {color: var(--paper);}
+.cdFooter .cd-footlogo {height: 36px;}
+.cdFooter h6 { font-size: 12px;letter-spacing: var(--track);text-transform: uppercase;margin-bottom: 22px;font-family: 'pop-bold';}
+.f-social{display:flex;gap:12px}
+.f-social a{width:38px;height:38px;border:1px solid var(--line-invert);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;font-size: 20px;background:rgba(255,255,255,.06);transition:all .25s}
+.f-social a:hover{background:var(--brass);border-color:var(--brass)}
 /* reveal on scroll */
 /* .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
 .rv.in{opacity:1;transform:none}
