@@ -5,22 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>@yield('title', 'Water Heaters & Geysers Portal')</title>
 
-    {{-- CSS --}}
-    <link href="{{url('assets/css/style.css?v='.mt_rand()) }}" rel="stylesheet" />
-
+    
     <!-- CSS & JS Assets via Vite -->
     @vite(['resources/js/app.js'])
-
+    
+    {{-- CSS --}}
+    <link href="{{url('assets/css/FA.min.css?v='.mt_rand()) }}" rel="stylesheet" />
+    <link href="{{url('assets/css/style.css?v='.mt_rand()) }}" rel="stylesheet" />
     <style>
-        body {
-            font-family: 'Outfit', sans-serif;
-            background-color: #f8fafc;
-            color: #1e293b;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
         .navbar-brand-custom {
             font-weight: 800;
             font-size: 1.5rem;
@@ -40,51 +32,6 @@
             top: 0;
             z-index: 1030;
         }
-
-        .hero-section {
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-            color: #ffffff;
-            padding: 80px 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -20%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
-            border-radius: 50%;
-        }
-
-        .card-product {
-            border: 1px solid rgba(226, 232, 240, 0.8);
-            border-radius: 16px;
-            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            background: #ffffff;
-            overflow: hidden;
-        }
-
-        .card-product:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 20px -8px rgba(0, 0, 0, 0.08);
-            border-color: #cbd5e1;
-        }
-
-        .badge-brand {
-            background-color: #f1f5f9;
-            color: #475569;
-            font-weight: 600;
-            font-size: 0.75rem;
-            padding: 6px 12px;
-            border-radius: 9999px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
         .footer-custom {
             margin-top: auto;
             background-color: #0f172a;
@@ -112,6 +59,20 @@
 </head>
 <body>
 
+    {{-- top bar --}}
+    <div class="mock-note">Design concept — Alabama Building Materials Trading L.L.C · prepared for review · not the live site</div>
+    <div class="topbar">
+        <div class="wrap">
+            <div class="tb-left">
+                <a href="mailto:sales@alabamauae.com"><i class="fa-solid fa-envelope"></i> sales@alabamauae.com</a>
+                <a href="tel:+97143526973"><span class="hide-m"><i class="fa-solid fa-phone"></i> +971 4 352 6973</span></a>
+            </div>
+            <div class="tb-right">
+                <a href="https://alabamauae.com/wp-content/uploads/2026/01/Alabama-Brochure.pdf" target="_blank" rel="noopener">Download brochure <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </div>
+
     <!-- Header / Navbar -->
     <nav class="navbar navbar-expand-lg navbar-custom py-3 cd-mainmenu">
         <div class="container">
@@ -122,7 +83,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                 <ul class="navbar-nav ms-auto align-items-lg-center">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('frontend.home') }}">
                             Home
@@ -174,12 +135,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link fw-medium"
-                        href="{{ route('frontend.home') }}">
-                            Products Catalog
-                        </a>
-                    </li>
                 </ul>
                 {{--<ul class="navbar-nav ms-auto align-items-center gap-2">
                     <li class="nav-item">
@@ -202,6 +157,11 @@
                         @endif
                     @endauth
                 </ul>--}}
+
+                <!-- menu-btn -->
+                <div class="nav-cta">
+                    <a class="btn solid" href="#contact">Get a quote</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -247,6 +207,7 @@
             </div>
         </div>
     </footer>
-
+    {{-- JS --}}
+    <script src="{{ url('assets/js/script.js?v='.mt_rand()) }}"></script>
 </body>
 </html>
