@@ -10,6 +10,7 @@
     @vite(['resources/js/app.js'])
     
     {{-- CSS --}}
+    <link href="{{url('assets/css/aos.css?v='.mt_rand()) }}" rel="stylesheet" />
     <link href="{{url('assets/css/FA.min.css?v='.mt_rand()) }}" rel="stylesheet" />
     <link href="{{url('assets/css/style.css?v='.mt_rand()) }}" rel="stylesheet" />
     <style>
@@ -40,6 +41,8 @@
     </style>
 </head>
 <body>
+    {{--Go to top--}}
+    <div id="return-to-top"><i class="fa fa-angle-up"></i></div>
 
     {{-- top bar --}}
     <div class="mock-note">Design concept — Alabama Building Materials Trading L.L.C · prepared for review · not the live site</div>
@@ -109,7 +112,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="{{ route('frontend.about') }}">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#blog">Blog</a>
@@ -216,6 +219,7 @@
     </a>
 
     {{-- JS --}}
+    <script src="{{ url('assets/js/aos.js?v='.mt_rand()) }}"></script>
     <script src="{{ url('assets/js/script.js?v='.mt_rand()) }}"></script>
 </body>
 </html>

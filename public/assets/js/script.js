@@ -1,4 +1,29 @@
+/*===== go to top ===========*/
+document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.getElementById("return-to-top");
 
+    window.addEventListener("scroll", function () {
+        if (window.scrollY >= 100) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    });
+
+    btn.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+});
+
+
+/* ----- AOS ----- */
+AOS.init({
+    easing: 'ease-out-back',
+    duration: 1000
+});
 /* ---------- reveal on scroll ---------- */
 // let io;
 // function observeReveals(){

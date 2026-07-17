@@ -77,7 +77,7 @@
                                 <small>01 — Heating</small>
                                 <h3>Hot Water Systems</h3>
                                 <p>Electric, solar and heat-pump water heaters, boilers and calorifiers.</p>
-                                <span class="link-arrow">Explore →</span>
+                                <span class="link-arrow">Explore <i class="fa-solid fa-arrow-right-long"></i></span>
                             </div>
                         </a>
                     </div>
@@ -91,7 +91,7 @@
                                 <small>02 — Flow</small>
                                 <h3>Plumbing Materials</h3>
                                 <p>Pipes, fittings, valves, pumps and pressure control for every system.</p>
-                                <span class="link-arrow">Explore →</span>
+                                <span class="link-arrow">Explore <i class="fa-solid fa-arrow-right-long"></i></span>
                             </div>
                         </a>
                     </div>
@@ -102,7 +102,7 @@
                                 <small>03 — Sanitary</small>
                                 <h3>Sanitaryware</h3>
                                 <p>WCs, wash basins and shattafs for residential and commercial washrooms.</p>
-                                <span class="link-arrow">Explore →</span>
+                                <span class="link-arrow">Explore <i class="fa-solid fa-arrow-right-long"></i></span>
                             </div>
                         </a>
                     </div>
@@ -113,7 +113,7 @@
                                 <small>04 — Finish</small>
                                 <h3>Bathroomware</h3>
                                 <p>Shower mixers, taps and accessories that finish the bathroom right.</p>
-                                <span class="link-arrow">Explore →</span>
+                                <span class="link-arrow">Explore <i class="fa-solid fa-arrow-right-long"></i></span>
                             </div>
                         </a>
                     </div>
@@ -124,7 +124,7 @@
                                 <small>05 — Kitchen</small>
                                 <h3>Kitchen</h3>
                                 <p>Sinks and sink taps built for daily use in UAE homes and facilities.</p>
-                                <span class="link-arrow">Explore →</span>
+                                <span class="link-arrow">Explore <i class="fa-solid fa-arrow-right-long"></i></span>
                             </div>
                         </a>
                     </div>
@@ -380,7 +380,7 @@
                             <div class="meta"><span class="tagpill">Hot water</span><span class="date">June 2026</span></div>
                             <h3>Electric vs. solar water heaters: what UAE villas actually need</h3>
                             <p>A practical comparison of running costs, capacity and lifespan for the Gulf climate.</p>
-                            <span class="link-arrow">Read more →</span>
+                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
                         </div>
                     </a>
                     <a class="post rv" href="#blog">
@@ -391,7 +391,7 @@
                             <div class="meta"><span class="tagpill">Plumbing</span><span class="date">May 2026</span></div>
                             <h3>How to choose the right pump for multi-storey buildings</h3>
                             <p>Multistage, self-priming or booster — matching pump type to head and flow requirements.</p>
-                            <span class="link-arrow">Read more →</span>
+                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
                         </div>
                     </a>
                     <a class="post rv" href="#blog">
@@ -404,7 +404,7 @@
                             </div>
                             <h3>Brass vs. zinc fittings: why the material behind the finish matters</h3>
                             <p>What separates a mixer that lasts fifteen years from one that fails in two.</p>
-                            <span class="link-arrow">Read more →</span>
+                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
                         </div>
                     </a>
                 </div>

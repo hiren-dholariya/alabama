@@ -80,4 +80,8 @@ class FrontendController extends Controller
 
         return view('frontend.show', compact('product', 'relatedProducts'));
     }
+
+    public function about()  {
+        return view('frontend.about');
+    }
 }

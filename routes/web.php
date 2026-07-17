@@ -9,6 +9,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\FrontendController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.home');
+Route::get('/about', [FrontendController::class, 'about'])->name('frontend.about');
 Route::get('/product/{product}', [FrontendController::class, 'show'])->name('frontend.product.show');
 
 require __DIR__.'/auth.php';
