@@ -90,4 +90,7 @@ class FrontendController extends Controller
     public function contact()  {
         return view('frontend.contact');
     }
+    public function cat_hotwater()  {
+        return view('frontend.cat-hotwater');
+    }
 }

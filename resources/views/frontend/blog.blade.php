@@ -12,7 +12,7 @@
                 <div data-aos="zoom-in-up">
                     <div class="eyebrow">Insights</div>
                     <h1 class="h-section">Guides from the <span class="accent-i">supply line.</span></h1>
-                    <p class="lede">Practical advice on heating, plumbing and sanitaryware for UAE homes, contractors and consultants.</p>
+                    <p class="lede mw-100">Practical advice on heating, plumbing and sanitaryware for UAE homes, contractors and consultants.</p>
                 </div>
             </div>
         </div>

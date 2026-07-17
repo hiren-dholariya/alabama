@@ -208,7 +208,7 @@ button{font:inherit;cursor:pointer}
 /* custom css # */
 /* ---------- inner pages ---------- */
 .page-hero{background:var(--stone);padding:90px 0 70px}
-.page-hero h1{margin-top:22px; font-size:clamp(1.8rem,3vw,2rem);}
+.page-hero h1{margin-top:22px; font-size:clamp(1.8rem,4vw,3.375rem);}
 .page-hero .lede{margin-top:18px}
 .val{border:1px solid var(--line);border-radius:var(--radius);padding: 2rem 2rem 1rem;background:#fff; min-height: stretch;}
 .val b{font-size:12px;letter-spacing:var(--track);text-transform:uppercase;color:var(--brass);display:block;margin-bottom:14px}
@@ -514,9 +514,25 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 ================ */
 .cdStatment {background-color: var(--stone);}
 .cdStatment h3 {font-size: clamp(1.1rem, 2vw, 1.375rem);margin: 16px 0 12px;}
-
 .cdLeadership {background-color: var(--stone);}
 .cdLeadership .subhead { font-size: 12px;letter-spacing: .14em;text-transform: uppercase;color: var(--brass);font-family: 'pop-normal';margin-bottom: 16px;}
+
+/* ===== cotact ======== */
+.cdContact {background-color: var(--paper);}
+.cdContact .contact-info{min-height:100%;}
+.cdContact .contact-form{background: var(--stone);border-radius: var(--radius);padding: 48px;}
+.cdContact .info-item{border-bottom:1px solid #e8e8e8;padding:22px 0;}
+.cdContact .info-item h6{font-size: 11.5px;letter-spacing: var(--track);text-transform: uppercase;font-family: 'pop-sb';color: var(--brass);display: block;margin-bottom: 6px;}
+.cdContact .info-item p{margin:0;font-size: 1rem;color: var(--ink);font-weight:400;}
+.cdContact .form-label{display: block;font-size: 11.5px;font-weight: 600;letter-spacing: var(--track);text-transform: uppercase;margin: 0 0 8px;color: var(--ink-soft);}
+.cdContact .form-control, .cdContact .form-select{height:50px;border:1px solid #ddd;border-radius:4px;box-shadow:none;font-size:15px;}
+.cdContact .form-control:focus, .cdContact .form-select:focus{border-color: var(--brass);box-shadow:none;}
+.cdContact textarea.form-control{height:120px;resize:none;}
+.cdContact .submit-btn{background:#111;color:#fff;height:55px;border-radius:4px;font-size:13px;letter-spacing:2px;font-weight:700;}
+.cdContact .submit-btn:hover{background:#222;color:#fff;}
+
+
+
 /* reveal on scroll */
 /* .rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease,transform .7s ease}
 .rv.in{opacity:1;transform:none}
@@ -541,11 +557,14 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
     .page-hero {padding: 2.5rem 0;}
     .nav-cta {justify-content: center;}
     .page-hero h1 {margin-top: 5px;}
+    .cdContact .contact-info{padding-bottom:10px;}
+    .cdContact .info-item p{font-size:18px;}
+    .cdContact .contact-form{padding: 26px;}
 }
 @media (max-width: 767px) {
-    .section {padding-block: 2rem;}
-    .topbar .wrap {display: block;text-align: center;}
+    .section {padding-block: 2rem;}    
     .topbar .tb-left {display: unset;}
+    .sec-head {margin-bottom: 1rem;}
 }
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     .cdBlog .blog-grid, .sub-grid  {grid-template-columns: repeat(2,1fr);}
@@ -553,6 +572,13 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 @media (max-width: 576px) {
     .page-hero {padding: 2rem 0;}
     .cats, .prod-grid, .cdBlog .blog-grid, .brandcards, .vals, .sub-grid {grid-template-columns: 1fr;}
+    .cdContact .info-item{padding:18px 0;}
+    .cdContact .info-item p{font-size:16px;}
+    .cdContact .form-control, .cdContact .form-select{height:46px;}
+    .cdContact textarea.form-control{height:100px;}
+    .sec-head.split {display: block;}
+    .topbar .wrap {display: block;text-align: center;}
+    .topbar .tb-left a {margin-inline: 5px;}
 }
 
 

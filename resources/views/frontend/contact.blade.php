@@ -10,95 +10,92 @@
         <div class="row">
             <div class="col-xl-12">
                 <div data-aos="zoom-in-up">
-                    <div class="eyebrow">Insights</div>
-                    <h1 class="h-section">Guides from the <span class="accent-i">supply line.</span></h1>
-                    <p class="lede">Practical advice on heating, plumbing and sanitaryware for UAE homes, contractors and consultants.</p>
+                    <div class="eyebrow">Contact us</div>
+                    <h1 class="h-section">Reliable building materials supplier <span class="accent-i">in the UAE.</span></h1>
+                    <p class="lede mw-100">Looking for high-quality building materials you can rely on? Alabama provides a comprehensive range of durable, industry-approved building supplies trusted by contractors, developers, engineers, and project managers across the UAE. Our expert team helps you choose the right products for your project — contact us for competitive pricing, product availability, and professional guidance.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<!-- blog -->
-<section class="cdBlog section">
+<!-- cotact form -->
+<section class="cdContact section">
     <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="blog-grid" data-aos="fade-up" data-aos-duration="2000">
-                    <a class="post" href="#blog">
-                        <div class="pi">
-                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/hot-water-system.webp" alt="" />
+        <div class="row g-5">
+            <!-- Left Side -->
+            <div class="col-xl-6 col-md-6 col-lg-6 mt-0">
+                <div class="contact-info p-lg-5 p-4">
+                    <div data-aos="fade-up">
+                        <div class="info-item">
+                            <h6>SHOWROOM & WAREHOUSE</h6>
+                            <p>Dubai Investments Park 2, Dubai, UAE</p>
                         </div>
-                        <div class="pc">
-                            <div class="meta"><span class="tagpill">Hot water</span><span class="date">June 2026</span></div>
-                            <h3>Electric vs. solar water heaters: what UAE villas actually need</h3>
-                            <p>A practical comparison of running costs, capacity and lifespan for the Gulf climate.</p>
-                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
+                        <div class="info-item">
+                            <h6>EMAIL</h6>
+                            <p>sales@alabamauae.com</p>
                         </div>
-                    </a>
-                    <a class="post" href="#blog">
-                        <div class="pi">
-                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/plumbing-materials.webp" alt="" />
+                        <div class="info-item">
+                            <h6>PHONE</h6>
+                            <p>+971 4 352 6973</p>
                         </div>
-                        <div class="pc">
-                            <div class="meta"><span class="tagpill">Plumbing</span><span class="date">May 2026</span></div>
-                            <h3>How to choose the right pump for multi-storey buildings</h3>
-                            <p>Multistage, self-priming or booster — matching pump type to head and flow requirements.</p>
-                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
+                        <div class="info-item">
+                            <h6>WHATSAPP</h6>
+                            <p>+971 55 913 8047</p>
                         </div>
-                    </a>
-                    <a class="post" href="#blog">
-                        <div class="pi">
-                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/sanitary-ware.webp" alt="" />
+                        <div class="info-item border-0 pb-0">
+                            <h6>HOURS</h6>
+                            <p>Mon–Sat, 8:30am – 6:30pm</p>
                         </div>
-                        <div class="pc">
-                            <div class="meta">
-                                <span class="tagpill">Sanitaryware</span><span class="date">April 2026</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="col-xl-6 col-md-6 col-lg-6 mt-0">
+                <div class="contact-form">
+                    <div data-aos="fade-up">
+                        <form>
+                            <div class="mb-4">
+                                <label class="form-label">NAME</label>
+                                <input type="text" class="form-control" placeholder="Your name">
                             </div>
-                            <h3>Brass vs. zinc fittings: why the material behind the finish matters</h3>
-                            <p>What separates a mixer that lasts fifteen years from one that fails in two.</p>
-                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </a>
-                    <a class="post" href="#blog">
-                        <div class="pi">
-                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/hot-water-system.webp" alt="" />
-                        </div>
-                        <div class="pc">
-                            <div class="meta"><span class="tagpill">Hot water</span><span class="date">June 2026</span></div>
-                            <h3>Electric vs. solar water heaters: what UAE villas actually need</h3>
-                            <p>A practical comparison of running costs, capacity and lifespan for the Gulf climate.</p>
-                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </a>
-                    <a class="post" href="#blog">
-                        <div class="pi">
-                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/plumbing-materials.webp" alt="" />
-                        </div>
-                        <div class="pc">
-                            <div class="meta"><span class="tagpill">Plumbing</span><span class="date">May 2026</span></div>
-                            <h3>How to choose the right pump for multi-storey buildings</h3>
-                            <p>Multistage, self-priming or booster — matching pump type to head and flow requirements.</p>
-                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </a>
-                    <a class="post" href="#blog">
-                        <div class="pi">
-                            <img src="https://alabamauae.com/wp-content/uploads/2026/01/sanitary-ware.webp" alt="" />
-                        </div>
-                        <div class="pc">
-                            <div class="meta">
-                                <span class="tagpill">Sanitaryware</span><span class="date">April 2026</span>
+
+                            <div class="mb-4">
+                                <label class="form-label">EMAIL</label>
+                                <input type="email" class="form-control" placeholder="you@company.com">
                             </div>
-                            <h3>Brass vs. zinc fittings: why the material behind the finish matters</h3>
-                            <p>What separates a mixer that lasts fifteen years from one that fails in two.</p>
-                            <span class="link-arrow">Read more <i class="fa-solid fa-arrow-right-long"></i></span>
-                        </div>
-                    </a>
+
+                            <div class="mb-4">
+                                <label class="form-label">PHONE</label>
+                                <input type="text" class="form-control" placeholder="+971">
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label">HOW CAN WE HELP?</label>
+                                <select class="form-select">
+                                    <option>Product inquiry</option>
+                                    <option>Request a quotation</option>
+                                    <option>Customer support</option>
+                                    <option>Other</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="form-label">MESSAGE</label>
+                                <textarea rows="5" class="form-control" placeholder="Products, quantities, project details..."></textarea>
+                            </div>
+
+                            <button class="btn solid w-100">
+                                SEND MESSAGE
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 @endsection

@@ -17,7 +17,7 @@
 </section>
 
 <!-- qulity -->
-<section class="cdwhoweare cdBgWhite">
+<section class="cdwhoweare cdBgWhite section">
     <div class="container">
         <div class="row">
             <div class="col-xl-6 col-md-6 col-lg-6 pe-md-5">
@@ -25,7 +25,7 @@
                     <img src="https://alabamauae.com/wp-content/uploads/2026/01/plumbing-materials.webp" alt="Alabama product range" class="img-fluid cdqulity" />
                 </div>
             </div>            
-            <div class="col-xl-6 col-md-6 col-lg-6 ps-md-5">
+            <div class="col-xl-6 col-md-6 col-lg-6 ps-md-5 mt-4 mt-md-0">
                 <div data-aos="zoom-in-up">
                     <div class="eyebrow">Who we are</div>
                     <h2 class="h-section mt-3">Built on quality. <span class="accent-i">Trusted for excellence.</span></h2>
@@ -48,7 +48,7 @@
                     <p class="lede">To become the leading and most trusted supplier of plumbing and building materials in the UAE, recognized for delivering high-quality products, reliable service, and exceptional value. Through continuous improvement, strong partnerships, and customer-focused service, we strive to contribute to the sustainable growth of the UAE's construction and infrastructure sector.</p>
                 </div>
             </div>
-            <div class="col-xl-6 col-md-6 col-lg-6">
+            <div class="col-xl-6 col-md-6 col-lg-6 mt-4 mt-md-0">
                 <div data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom">
                     <div class="eyebrow">Our mission</div>
                     <h3>Lasting value for every project</h3>
