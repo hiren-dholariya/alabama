@@ -10,6 +10,8 @@ use App\Http\Controllers\FrontendController;
 
 Route::get('/', [FrontendController::class, 'index'])->name('frontend.home');
 Route::get('/about', [FrontendController::class, 'about'])->name('frontend.about');
+Route::get('/blog', [FrontendController::class, 'blog'])->name('frontend.blog');
+Route::get('/contact', [FrontendController::class, 'contact'])->name('frontend.contact');
 Route::get('/product/{product}', [FrontendController::class, 'show'])->name('frontend.product.show');
 
 require __DIR__.'/auth.php';

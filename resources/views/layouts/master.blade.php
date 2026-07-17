@@ -70,13 +70,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto align-items-lg-center">
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('frontend.home') }}">
+                        <a class="nav-link cdLine" href="{{ route('frontend.home') }}">
                             Home
                         </a>
                     </li>
                     <!-- Categories Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
+                        <a class="nav-link dropdown-toggle cdLine"
                         href="#"
                         id="categoriesDropdown"
                         role="button"
@@ -94,7 +94,7 @@
 
                     <!-- Brands Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle"
+                        <a class="nav-link dropdown-toggle cdLine"
                         href="#"
                         id="brandsDropdown"
                         role="button"
@@ -112,13 +112,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('frontend.about') }}">About</a>
+                        <a class="nav-link cdLine" href="{{ route('frontend.about') }}">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
+                        <a class="nav-link cdLine" href="{{ route('frontend.blog') }}">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link cdLine" href="{{ route('frontend.contact') }}">Contact</a>
                     </li>
                 </ul>
                 {{--<ul class="navbar-nav ms-auto align-items-center gap-2">
