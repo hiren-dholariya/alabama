@@ -77,38 +77,38 @@
                     <!-- Categories Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle cdLine"
-                        href="#"
+                        href="javascript:;"
                         id="categoriesDropdown"
                         role="button"
                         data-bs-toggle="dropdown">
                             Categories
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#cat-hotwater">Hot Water Systems</a></li>
-                            <li><a class="dropdown-item" href="#cat-plumbing">Plumbing Materials</a></li>
-                            <li><a class="dropdown-item" href="#cat-sanitary">Sanitaryware</a></li>
-                            <li><a class="dropdown-item" href="#cat-bathroom">Bathroomware</a></li>
-                            <li><a class="dropdown-item" href="#cat-kitchen">Kitchen</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.cat-hotwater') }}">Hot Water Systems</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.cat-hotwater') }}">Plumbing Materials</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.cat-hotwater') }}">Sanitaryware</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.cat-hotwater') }}">Bathroomware</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.cat-hotwater') }}">Kitchen</a></li>
                         </ul>
                     </li>
 
                     <!-- Brands Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle cdLine"
-                        href="#"
+                        href="javascript:;"
                         id="brandsDropdown"
                         role="button"
                         data-bs-toggle="dropdown">
                             Brands
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#brand-lamborghini">Lamborghini CaloreClima</a></li>
-                            <li><a class="dropdown-item" href="#brand-zenith">Zenith Water Heater</a></li>
-                            <li><a class="dropdown-item" href="#brand-ariston">Ariston</a></li>
-                            <li><a class="dropdown-item" href="#brand-vera">VERA</a></li>
-                            <li><a class="dropdown-item" href="#brand-pegler">Pegler</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.brand-lamborghini') }}">Lamborghini CaloreClima</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.brand-lamborghini') }}">Zenith Water Heater</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.brand-lamborghini') }}">Ariston</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.brand-lamborghini') }}">VERA</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.brand-lamborghini') }}">Pegler</a></li>
                             <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#brands">All Brands</a></li>
+                            <li><a class="dropdown-item" href="{{ route('frontend.all-brands') }}">All Brands</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -170,7 +170,7 @@
                         <a href="https://wa.me/971559138047" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6">
+                <div class="col-lg-2 col-md-6 col-sm-4">
                     <h6 class="text-white mb-3 fw-bold">Quick Links</h6>
                     <ul class="list-unstyled small d-flex flex-column gap-2">
                         <li><a href="{{ route('frontend.home') }}">Home</a></li>
@@ -180,7 +180,7 @@
                         <li><a href="{{ route('login') }}">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <h6 class="text-white mb-3 fw-bold">Products</h6>
                     <ul class="list-unstyled small d-flex flex-column gap-2">
                         <li><a href="{{ route('frontend.home') }}">Water heaters</a></li>
@@ -192,7 +192,7 @@
                         <li><a href="{{ route('frontend.home') }}">Kitchen</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-sm-4">
                     <h6 class="text-white mb-3 fw-bold">Contact</h6>
                     <p class="small mb-1"><i class="fa-solid fa-location-dot me-2"></i> Dubai Investments Park 2, Dubai, UAE</p>
                     <p class="small mb-1"><i class="fa-solid fa-envelope me-2"></i><a href="mailto:sales@alabamauae.com">sales@alabamauae.com</a></p>

@@ -222,7 +222,7 @@ button{font:inherit;cursor:pointer}
 .eyebrow.centered::after{content:"";width:30px;height:2px;background:var(--brass);border-radius:2px;flex:none}
 h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 .h-display{font-size:clamp(38px,4.4vw,62px);line-height:1.18}
-.h-section{font-size:clamp(30px,3.2vw,46px);line-height:1.22}
+.h-section{font-size:clamp(26px,3.2vw,46px);line-height:1.22}
 .accent-i{font-style:italic;color:var(--brass)}
 .on-dark .accent-i{color:#f29b9b}
 .lede{color:var(--grey);max-width:560px}
@@ -439,6 +439,7 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 .cdcollections .product-body{
     padding:25px;
 }
+.cdcollections .product-body .short-desc { font-size: 14px;color: var(--grey);font-family: 'os-normal';letter-spacing: 0;margin-bottom: 14px;}
 .cdcollections .product-body small{
     display:block;
     color: var(--brass);
@@ -531,6 +532,18 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
 .cdContact .submit-btn{background:#111;color:#fff;height:55px;border-radius:4px;font-size:13px;letter-spacing:2px;font-weight:700;}
 .cdContact .submit-btn:hover{background:#222;color:#fff;}
 
+/* ----- CTA ------- */
+.cta-section {background-color: var(--stone);padding-block: 4.375rem;}
+
+/* ====== cdBrandHeader ======= */
+.cdBrandHeader .cdBrandImg .cdBrandImg { height: 120px;width: auto;object-fit: contain;margin: 20px 0 0;}
+.cdBrandRange .category-card {background:#fff;border:1px solid #ddd;border-radius:8px;padding: 2rem;transition: all 0.5s ease;}
+.cdBrandRange .category-card:hover {transform: translateY(-6px);box-shadow: 0 15px 35px rgba(0,0,0,.08);}
+.cdBrandRange .category-label{ font-size: 11px;font-weight: 600;letter-spacing: var(--track);text-transform: uppercase;color: var(--brass);}
+.cdBrandRange .category-title{font-size: 21px;font-family: 'pop-bold';color: var(--ink);margin: 10px 0 16px;}
+.chips {display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.chip {border:1px solid var(--line);border-radius:100px;padding:6px 16px;font-size:12px;letter-spacing:.06em;color:var(--ink-soft);background:var(--stone)}
+.cdAllBrand .product-img .cdText { font-size: 1.375rem;margin: 0 0 24px;display: flex;align-items: center;justify-content: center;font-family: 'pop-bold';    letter-spacing: .14em;text-transform: uppercase;}
 
 
 /* reveal on scroll */
@@ -565,6 +578,7 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
     .section {padding-block: 2rem;}    
     .topbar .tb-left {display: unset;}
     .sec-head {margin-bottom: 1rem;}
+    .cta-section {padding-block: 2rem;}
 }
 @media only screen and (min-width: 640px) and (max-width: 767px) {
     .cdBlog .blog-grid, .sub-grid  {grid-template-columns: repeat(2,1fr);}
@@ -579,6 +593,8 @@ h1,h2,h3{font-family: 'pop-bold';letter-spacing:.01em}
     .sec-head.split {display: block;}
     .topbar .wrap {display: block;text-align: center;}
     .topbar .tb-left a {margin-inline: 5px;}
+    .cdBrandRange .category-card, .cdcollections .product-img {padding: 1rem;}
+    .cdcollections .product-img {height: 200px;}
 }
 
 

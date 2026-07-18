@@ -93,4 +93,10 @@ class FrontendController extends Controller
     public function cat_hotwater()  {
         return view('frontend.cat-hotwater');
     }
+    public function brand_lamborghini()  {
+        return view('frontend.brand-lamborghini');
+    }
+    public function all_brands()  {
+        return view('frontend.all-brands');
+    }
 }
